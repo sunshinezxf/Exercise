@@ -1,0 +1,151 @@
+@CHARSET "utf-8";
+
+html {
+	background-size: 100% 100%;
+	background: url('../material/bg.jpg') no-repeat;
+	background-attachment: relative;
+}
+
+#page {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #333333;
+	margin: 0 auto;
+	background: #ffffff;
+	min-width: 1024px;
+}
+
+div, a, ul, span {
+	border: 0px;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+	margin: 0px;
+	padding: 0px;
+}
+
+div {
+	display: block;
+}
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	margin: 0px;
+}
+
+.main-header {
+	width: 100%;
+}
+
+.main-header {
+	display: inline;
+}
+
+.header-profile-bar {
+	background-color: #3A4951;
+	position: relative;
+	line-height: 50px;
+	font-weight: bold;
+	color: #ffffff;
+	font-size: 16px;
+}
+
+div .row {
+	height: 1%;
+}
+
+.header-profile-bar ul .navbar-list {
+	float: right;
+	margin: 0 -4px 0 0;
+}
+
+.header-profile-bar li {
+	padding-left: 10px;
+}
+
+.navbar-list li a {
+	color: #fff;
+	padding: 0 20px 0 10px;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+ul {
+	list-style: none;
+}
+
+.header-profile-bar .row {
+	height: 50px;
+	padding: 0;
+	border-bottom: none;
+}
+
+.header-profle-bar .grid-layout {
+	margin-bottom: 55px;
+}
+
+.grid-layout {
+	width: 976px;
+	margin: 0 auto;
+	position: relative;
+}
+
+a:visited {
+	color: #4176A7;
+}
+
+a {
+	text-decoration: none;
+}
+
+.logo {
+	left: 0;
+	padding: 0;
+	position: relative;
+}
+
+a {
+	color: #098AE4;
+	text-decoration: none;
+	font-weight: normal;
+}
+
+div .search {
+	float: right;
+	margin-right: 30%;
+	width: 20%;
+	height: 50px;
+}
+
+nav {
+	float: left;
+	margin: 5px 2px 5px 2px;
+	padding: 4px 2px 4px 2px;
+}
+
+.search_input {
+	outline: none;
+	width: 73%;
+	background: #ffffcc;
+	margin: 0;
+	border: none;
+	font-size: 12px;
+	height: 16px;
+	color: #999999;
+	float: left;
+	border-radius: 10px 0 0 10px;
+	padding: 4px 4px 4px 4px;
+}
+
+.search nav a {
+	text-indent: -9999em;
+	float: left;
+	width: 10%;
+	height: 16px;
+	margin-right: 10px;
+	cursor: pointer;
+	background: url('../material/search_button.png') no-repeat 0 3px #ffffcc;
+	padding: 4px 4px 4px 4px;
+	border-radius: 0 10px 10px 0;
+}
